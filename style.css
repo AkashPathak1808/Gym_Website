@@ -1,0 +1,35 @@
+.second
+{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+  
+}
+.second2
+{
+    display:flex;
+    flex-direction: column;
+    width: 773px;
+    height: 520px;
+ 
+}
+p
+{
+ font-family: inter;
+font-size: 24px;
+
+
+  
+}
+h1{
+  color: #F95B31;
+    font-style: inter;
+    line-height: 29.05px;
+    <nobr>
+}
+.image img
+{
+        width: 316px;
+        height: 388px;
+        border-radius: 71px 25px 0px 25px;
+}
