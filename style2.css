@@ -8,24 +8,21 @@
 .second2 {
   display: flex;
   flex-direction: column;
-  width: 773px;
-  height: 520px;
+  padding: 2%;
 
 
 
 }
 
-p {
+.ssP {
   font-family: inter;
-  font-size: 24px;
-
-  
+  font-size: 2rem;  
+  text-align: justify;
 }
 
-h1 {
+.ssHead {
   color: #F95B31;
-  font-style: inter;
-  line-height: 29.05px;
+  font-style: inter;  
 
 }
 
@@ -33,4 +30,16 @@ h1 {
   width: 316px;
   height: 388px;
   border-radius: 71px 25px 0px 25px;
+}
+
+
+@media screen and (max-width:900px) {
+   .second{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   }
+   
+   
 }
