@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Hi+Melody&display=swap');
+
+#wrapper {
+    height: 100vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+ #header  {
+    background-image: url(imge4/header.jpg); 
+    height:35rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top 30% right 0;
+    padding: 0 80px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;   
+}
+
+#header h1 {
+    color: rgb(255, 255, 255);
+    font-size: 6.1rem;
+}
+
+.offer {
+    height:4rem;
+    /* width: 50rem; */
+    margin-left: 30rem;
+    margin-right: 32rem;
+    font-size: 3rem;
+    margin-top: 2rem;
+    background-color: #194548;
+    border-radius: 1rem;
+
+}
+
+strong{
+    /* background-color: #194548;
+    border: solid #194548; */
+    font-family: 'Hi Melody', sans-serif;
+    background: linear-gradient(to right , #6A0B0B, #A99B21FC, #748D16FB, #2A7906FA, #E60303, #59EA15);
+    -webkit-background-clip: text; 
+    background-clip: text; 
+    color: transparent; 
+    text-align: center;
+    margin:1rem;
+    text-decoration: solid;
+}
