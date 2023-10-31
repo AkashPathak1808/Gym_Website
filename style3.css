@@ -1,34 +1,29 @@
 @import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300&family=Montserrat:wght@300&family=Open+Sans:ital,wght@0,300;1,400&display=swap");
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Be Vietnam Pro", sans-serif;
-  scroll-behavior: smooth;
-}
-
 .redLine {
   width: 100%;
   height: 50px;
   background-color: red;
-  margin-bottom: 30px;
 }
 
 footer {
+  font-family: "Be Vietnam Pro", sans-serif;
+  scroll-behavior: smooth;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  margin-bottom: 50px;
+  padding: 2%;
+  background-color: #1e1e1e;
 }
 
 .address {
+  color: white;
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
 
-.logo {
+.logoS {
   width: 141px;
   height: 113px;
 }
@@ -42,18 +37,18 @@ footer {
 }
 
 .aboutUs {
+  margin-top: 5%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
-.heading {
-    font-style: italic;
-    text-decoration: underline;
+.heading1 {
+  font-style: italic;
+  text-decoration: underline;
   font-size: 25px;
   color: orangered;
   font-weight: 900;
-  margin-bottom: 30px;
 }
 
 .membership p {
@@ -62,7 +57,7 @@ footer {
 }
 .membership a {
   text-decoration: none;
-  color: black;
+  color: white;
 }
 
 .membership a:hover {
@@ -70,15 +65,13 @@ footer {
 }
 
 .followUs {
-  width: 200px;
-
-  justify-content: space-between;
-  gap: 80px;
+  margin-top: 5%;
+  text-transform: uppercase;
 }
 
 .heading2 {
-    font-style: italic;
-    text-decoration: underline;
+  font-style: italic;
+  text-decoration: underline;
   font-size: 25px;
   color: orangered;
   font-weight: 900;
@@ -92,9 +85,42 @@ footer {
 .icons img {
   margin-right: 10px;
   margin-top: 30px;
+  /* mix-blend-mode: color; */
 }
 
 .cpy {
- text-align: center;
- font-weight: 700;
+  text-align: center;
+  font-weight: 700;
+  background-color: #1e1e1e;
+  color: white;
+  padding: 2%;
+}
+
+@media only screen and (max-width: 700px) {
+  .fifthSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .heading {
+    margin-top: 50px;
+  }
+
+  .followUs {
+    margin-top: 50px;
+  }
+
+  .aboutUs {
+    text-align: center;
+  }
+
+  .address {
+    text-align: center;
+  }
+
+  .logoS{
+    margin-left: 40px;
+  }
 }
