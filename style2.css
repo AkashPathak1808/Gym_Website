@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins:wght@300&family=Roboto:wght@300&display=swap');
+
+
 .second {
   display: flex;
   flex-direction: row;
@@ -42,4 +45,49 @@
    }
    
    
+}
+
+/* style for classes */
+
+.flex-container {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    margin: 30px;
+    font-size: 30px;
+  gap:45px;
+
+} 
+
+.card1{
+
+  box-shadow: 0px 4px 4px 0px #00000040;
+  border-radius: 25px 25px ;
+ 
+  width: 370px;
+  height: 435px;
+}
+
+.card1 img{
+
+width: 372px;
+height: 250px;
+border-radius: 25px 25px 0px 0px;
+}
+
+.a img{
+  position: relative;
+}
+
+.a p{
+  position: absolute;
+  top: 9%;
+  left: 10%;
+  color: #FFF;
+  font-family: 'Inter', sans-serif;
+  font-size: 90px;
+  font-style: italic;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
 }
