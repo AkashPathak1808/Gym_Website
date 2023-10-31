@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300&family=Montserrat:wght@300&family=Open+Sans:ital,wght@0,300;1,400&display=swap");
 
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300&family=Inter:wght@700&family=Montserrat:wght@300&family=Open+Sans:ital,wght@0,300;1,400&display=swap");
+
 .redLine {
   width: 100%;
   height: 50px;
@@ -120,7 +122,110 @@ footer {
     text-align: center;
   }
 
-  .logoS{
+  .logoS {
     margin-left: 40px;
   }
+}
+
+/* *********** Personal Training ********** */
+
+.personalTraining {
+  width: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+  font-family: "Inter";
+}
+
+.ptLogo {
+  position: relative;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.ptPara {
+  width: 667px;
+  position: absolute;
+  top: 5%;
+  left: 10%;
+  font-family: "Inter";
+  font-size: 90px;
+  font-style: italic;
+  font-weight: 700;
+  line-height: 109px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: white;
+  font-size: 90px;
+  text-transform: uppercase;
+}
+
+.facillity {
+  background-image: linear-gradient(
+    180deg,
+    #0e2223 0%,
+    rgba(20, 21, 21, 0.33) 100%
+  );
+  color: rgba(255, 63, 12, 1);
+  padding: 1rem;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 61px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-bottom: 150px;
+}
+
+.heroSection {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.flexBox img {
+  width: 476px;
+  height: 348px;
+  border-radius: 20px;
+}
+
+.flexBox p {
+  color: #000;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 476px;
+  font-weight: 500;
+}
+
+.box3 {
+  margin-top: 5%;
+  margin-left: 34%;
+}
+
+.box3 img {
+  width: 476px;
+  height: 348px;
+  border-radius: 20px;
+}
+
+.box3 p {
+  color: #000;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 476px;
+}
+
+.read_more {
+  color: #fa1825;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  font-weight: 700;
 }
