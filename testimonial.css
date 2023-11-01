@@ -1,0 +1,266 @@
+.navigation {
+    margin: 1% 0%;
+}
+
+.logo img {
+    width: 100%;
+    height: 50px;
+    margin: 0% 30%;
+}
+
+.navi {
+    font-size: 13px;
+    margin-left: 20%;
+}
+
+.firstSectionImage img {
+    width: 100%;
+    height: 500px;
+}
+
+.containercc{
+    background: linear-gradient(to bottom right, rgba(251, 33, 33, 0.57) 0%, rgba(39, 36, 36, 0.00) 50%) bottom right / 50% 50% no-repeat, linear-gradient(to bottom left, rgba(251, 33, 33, 0.57) 0%, rgba(39, 36, 36, 0.00) 50%) bottom left / 50% 50% no-repeat, linear-gradient(to top left, rgba(251, 33, 33, 0.57) 0%, rgba(39, 36, 36, 0.00) 50%) top left / 50% 50% no-repeat, linear-gradient(to top right, rgba(251, 33, 33, 0.57) 0%, rgba(39, 36, 36, 0.00) 50%) top right / 50% 50% no-repeat;
+    margin-top: 20px;
+    height: 1000px;
+    margin-bottom: 20px;
+   
+}
+.card-deck {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 150px;
+    padding-top: 30px;
+    
+  }
+
+  .card {
+    width: 300px; /* Adjust the width as needed */
+    background-color: #E0E0E0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
+  }
+
+  .card img {
+    width: 100%;
+    height: 200px; /* Adjust the height as needed */
+    object-fit: cover;
+    border-bottom: 1px solid #ddd;
+    border-radius: 5px 5px 0 0;
+  }
+
+  .card .card-body {
+    padding: 20px;
+  }
+
+ 
+
+  .card .card-text {
+    margin-bottom: 20px;
+    color: #ff3600;
+  }
+
+  @media screen and (max-width:900px){}
+ 
+  @media screen and (max-width:500px){
+    .card-deck {
+        padding-top: 83px;
+        gap: 83px;
+    }
+  }
+  
+
+
+  @import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300&family=Montserrat:wght@300&family=Open+Sans:ital,wght@0,300;1,400&display=swap");
+
+/* css for feedback */
+.fof {
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+.feedback-form {
+  min-width: 50%;
+  width: 500px;
+  height: 490px;
+  margin: auto;
+  margin-bottom: 15px;
+  background: rgba(203, 194, 194, 0.46);
+  padding: 20px;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  font-family: Arial, sans-serif;
+}
+.feedback-form h2 {
+  text-align: center;
+}
+.form-group {
+  margin: 10px 0;
+}
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+.form-group input[type="text"],
+.form-group textarea {
+  min-width: 90%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.form-group textarea {
+  height: 100px;
+}
+.form-group button {
+  background: #007BFF;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.form-group button:hover {
+  background: #0056b3;
+}
+
+/* css for footer */
+
+.redLine {
+  width: 100%;
+  height: 50px;
+  background-color: red;
+  margin-top: -120px;
+}
+
+footer {
+  font-family: "Be Vietnam Pro", sans-serif;
+  scroll-behavior: smooth;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 2%;
+  background-color: #1e1e1e;
+}
+
+.address {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.logoS {
+  width: 141px;
+  height: 113px;
+}
+
+.address div p {
+  font-weight: 600;
+}
+
+.email {
+  text-decoration: none;
+}
+
+.aboutUs {
+  margin-top: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.heading1 {
+  font-style: italic;
+  text-decoration: underline;
+  font-size: 25px;
+  color: orangered;
+  font-weight: 900;
+}
+
+.membership p {
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+.membership a {
+  text-decoration: none;
+  color: white;
+}
+
+.membership a:hover {
+  color: orangered;
+}
+
+.followUs {
+  margin-top: 5%;
+  text-transform: uppercase;
+}
+
+.heading2 {
+  font-style: italic;
+  text-decoration: underline;
+  font-size: 25px;
+  color: orangered;
+  font-weight: 900;
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
+}
+
+.icons img {
+  margin-right: 10px;
+  margin-top: 30px;
+  /* mix-blend-mode: color; */
+}
+
+.cpy {
+  text-align: center;
+  font-weight: 700;
+  background-color: #1e1e1e;
+  color: white;
+  padding: 2%;
+}
+
+@media screen and (max-width:500px){
+    .feedback-form{
+        min-width: 50%;
+        width: 370px;
+        height: 490px;
+        margin-top: 710px;
+    }
+    .redLine{
+        margin-top: -100px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+  .fifthSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .heading {
+    margin-top: 50px;
+  }
+
+  .followUs {
+    margin-top: 50px;
+  }
+
+  .aboutUs {
+    text-align: center;
+  }
+
+  .address {
+    text-align: center;
+  }
+
+  .logoS{
+    margin-left: 40px;
+  }
+}
