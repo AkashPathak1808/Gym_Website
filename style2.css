@@ -1,32 +1,26 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins:wght@300&family=Roboto:wght@300&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Poppins:wght@300&family=Roboto:wght@300&display=swap");
 
 .second {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-
 }
 
 .second2 {
   display: flex;
   flex-direction: column;
   padding: 2%;
-
-
-
 }
 
 .ssP {
   font-family: inter;
-  font-size: 2rem;  
+  font-size: 2rem;
   text-align: justify;
 }
 
 .ssHead {
-  color: #F95B31;
-  font-style: inter;  
-
+  color: #f95b31;
+  font-style: inter;
 }
 
 .image img {
@@ -35,59 +29,87 @@
   border-radius: 71px 25px 0px 25px;
 }
 
-
-@media screen and (max-width:900px) {
-   .second{
+@media screen and (max-width: 900px) {
+  .second {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-   }
-   
-   
+  }
 }
 
 /* style for classes */
 
-.flex-container {
-    display: flex;
-    flex-wrap:wrap;
-    justify-content: center;
-    margin: 30px;
-    font-size: 30px;
-  gap:45px;
+.flex-container .container-1 {
+  display: flex;
+  justify-content: space-evenly;
+}
+.flex-container .container-2 {
+  display: flex;
+  justify-content: first baseline;
+  padding: 6%;
+  gap: 8%;
+}
 
-} 
-
-.card1{
-
+.card1 {
   box-shadow: 0px 4px 4px 0px #00000040;
-  border-radius: 25px 25px ;
- 
+  border-radius: 25px 25px;
   width: 370px;
   height: 435px;
+  gap: 45px;
 }
 
-.card1 img{
-
-width: 372px;
-height: 250px;
-border-radius: 25px 25px 0px 0px;
+.card1 img {
+  width: 372px;
+  height: 250px;
+  border-radius: 25px 25px 0px 0px;
 }
 
-.a img{
+.a img {
   position: relative;
 }
 
-.a p{
+.a p {
   position: absolute;
   top: 9%;
   left: 10%;
-  color: #FFF;
-  font-family: 'Inter', sans-serif;
+  color: #fff;
+  font-family: "Inter", sans-serif;
   font-size: 90px;
   font-style: italic;
   font-weight: 700;
   line-height: normal;
   text-transform: uppercase;
+}
+
+.flex-container {
+  margin-top: 45px;
+}
+
+.card1 p {
+  color: #df5733;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 700;
+  line-height: normal;
+}
+@media screen and (max-width: 1150px) {
+  .container-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .card1 {
+    margin: 5% 1%;
+  }
+
+  .container-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }
