@@ -59,15 +59,25 @@ footer {
   font-size: 25px;
   color: orangered;
   font-weight: 900;
+  
+  
+}
+
+.membership{
+   margin-bottom: 35px;
 }
 
 .membership p {
   font-weight: 600;
-  margin-bottom: 5px;
+  margin-bottom: 3px;
+  
 }
+
 .membership a {
   text-decoration: none;
   color: white;
+  
+  
 }
 
 .membership a:hover {
@@ -95,7 +105,7 @@ footer {
 .icons img {
   margin-right: 10px;
   margin-top: 30px;
-  /* mix-blend-mode: color; */
+
 }
 
 .cpy {
@@ -241,29 +251,26 @@ footer {
 
 .btn {
   background-color: rgba(255, 63, 12, 1);
-  margin: 0 auto;
+
   padding: 10px;
-  font-size: 50px;
+  font-size: 2rem;
   color: #fff;
   font-weight: 400;
   font-family: "Lemon", serif;
-  line-height: normal;
   text-align: center;
-  width: 650px;
+  width: 50%;
   border-radius: 10px;
   margin-top: 8%;
+  display: block;
+  margin: 4% auto;
 }
 
 #paras p {
-  margin: 0 auto;
-  width: 1300px;
-  color: #000;
-  font-size: 35px;
+  font-size: 2.5rem;
   font-style: normal;
   font-family: "League Spartan";
   font-weight: 400;
-  line-height: normal;
-  margin-top: 2%;
+  padding: 2%  7%;
 }
 
 @media only screen and (max-width: 1180px) {
@@ -300,5 +307,7 @@ footer {
     padding: 40% 5%;
   }
 
-  
+  .btn {
+    font-size: 1rem;
+  }
 }
