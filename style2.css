@@ -47,8 +47,8 @@
 .flex-container .container-2 {
   display: flex;
   justify-content: first baseline;
-  padding: 6%;
-  gap: 8%;
+  padding: 6% 3%;
+  gap: 5%;
 }
 
 .card1 {
@@ -65,21 +65,20 @@
   border-radius: 25px 25px 0px 0px;
 }
 
-.a img {
-  position: relative;
+.a {
+  background-image: url("image2/gym.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 100%;
+  height: 460px;
+
 }
 
 .a p {
-  position: absolute;
-  top: 9%;
-  left: 10%;
-  color: #fff;
-  font-family: "Inter", sans-serif;
-  font-size: 90px;
-  font-style: italic;
+  font-size: 5rem;
+  padding: 10% 2%; 
+  color: white;
   font-weight: 700;
-  line-height: normal;
-  text-transform: uppercase;
 }
 
 .flex-container {
@@ -93,6 +92,7 @@
   font-style: italic;
   font-weight: 700;
   line-height: normal;
+  margin: 7% 2%;
 }
 @media screen and (max-width: 1150px) {
   .container-1{
@@ -113,3 +113,10 @@
     align-items: center;
   }
 }
+
+@media screen and (max-width: 550px) {
+  .a p {
+    padding: 30% 4%;
+  }
+}
+
