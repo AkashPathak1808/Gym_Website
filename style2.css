@@ -47,8 +47,8 @@
 .flex-container .container-2 {
   display: flex;
   justify-content: first baseline;
-  padding: 6% 3%;
-  gap: 5%;
+  padding: 6% 3%; 
+  gap: 2%;
 }
 
 .card1 {
@@ -57,6 +57,7 @@
   width: 370px;
   height: 435px;
   gap: 45px;
+  margin: 1%;
 }
 
 .card1 img {
@@ -75,7 +76,7 @@
 }
 
 .a p {
-  font-size: 5rem;
+  font-size: 4rem;
   padding: 10% 2%; 
   color: white;
   font-weight: 700;
@@ -116,7 +117,8 @@
 
 @media screen and (max-width: 550px) {
   .a p {
-    padding: 30% 4%;
+    padding: 30% 8%;
+    font-size: 3rem;
   }
 }
 
