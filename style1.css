@@ -14,7 +14,6 @@
 }
 
 .nav-link.active {
-    color: #FF3F0C;
     background-color: #FF3F0C;
     border-radius: 20px;
 }
@@ -26,8 +25,6 @@
 
 .navBarItem a:hover {
     color: #FF3F0C;
-    background-color: #FF3F0C;
-    border-radius: 20px;
 
 }
 
