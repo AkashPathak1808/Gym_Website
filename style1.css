@@ -38,7 +38,7 @@
 }
 
 .tsDiv {
-    padding: 5% 2%;
+    padding: 0% 2%;
     padding-top: 10%;
     color: white;
 }
@@ -64,6 +64,7 @@
     width: 300px;
     border-radius: 25px;
     margin-left: 34%;
+    margin-top: -15%;
 }
 
 .imgDiv {
@@ -187,7 +188,7 @@
 
 @media screen and (max-width: 525px) {
     .cfsHead {
-        padding: 45% 5%;
+        padding: 40% 5%;
         font-size: 3rem;
     }
 
