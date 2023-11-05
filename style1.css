@@ -13,6 +13,24 @@
     margin-left: 20%;
 }
 
+.nav-link.active {
+    color: #FF3F0C;
+    background-color: #FF3F0C;
+    border-radius: 20px;
+}
+
+.navBarItem a {
+    transition: .5s;
+    color: white;
+}
+
+.navBarItem a:hover {
+    color: #FF3F0C;
+    background-color: #FF3F0C;
+    border-radius: 20px;
+
+}
+
 .firstSectionImage img {
     width: 100%;
     height: 500px;
@@ -33,7 +51,7 @@
 }
 
 .tsHeader {
-    font-size: 312%;
+    font-size: 3rem;
     color: #FF3F0C;
 }
 
@@ -70,7 +88,7 @@
 
 @media screen and (max-width: 992px) {
     .navi {
-        text-align: center  ;
+        text-align: center;
         margin-left: 0%;
     }
 
@@ -136,11 +154,11 @@
     color: #EACD32;
 }
 
-.col div{
+.col div {
     margin: 0 auto;
 }
 
-.csHead3{
+.csHead3 {
     text-align: center;
     margin: 2%;
     font-family: Inter;
@@ -153,13 +171,13 @@
 }
 
 .line {
-    margin: 2%;    
+    margin: 2%;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
-.line img{
+.line img {
     width: 40%;
     height: 15px;
 }
@@ -170,7 +188,7 @@
     }
 }
 
-@media screen and (max-width: 525px){    
+@media screen and (max-width: 525px) {
     .cfsHead {
         padding: 45% 5%;
         font-size: 3rem;
@@ -183,4 +201,13 @@
     .csHead3 {
         font-size: 1.5rem;
     }
+
+    .tsHeader {
+        font-size: 2rem;
+    }
+
+    .tsDescription {
+        font-size: 100%;
+    }
+
 }
