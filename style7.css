@@ -1,0 +1,67 @@
+.locFS {
+    background-image: url("Image7/loc1.webp");
+    width: 100%;
+    height: 460px;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-size: 100% 100%;
+}
+
+.locHead {
+    color: #FFFFFF;
+    padding: 13% 0%;
+    font-size: 4rem;
+    font-style: italic;
+}
+
+.locSS {
+    background-color: rgb(119 92 116);
+    background-image: url("Image7/loc2.png");
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-size: 100% 100%;
+    padding: 10% 10%;
+}
+
+.locGymHead {
+    color: #FC461E;
+    font-family: Poppins;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: 4.65px;
+    text-decoration-line: underline;
+}
+
+.locGymPara {
+    color: #FFC700;
+    font-family: Poppins;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: 1.65px;
+    text-decoration-line: underline;
+}
+
+.locTS img {
+    width: 100%;
+}
+
+@media screen and (max-width: 525px) {
+    .locHead {
+        padding: 40% 5%;
+        font-size: 3rem;
+    }
+
+    .locGymHead {
+        font-size: 1.5rem;
+    }
+    
+    .locGymPara {
+        font-size: 0.6rem;
+    }
+
+}

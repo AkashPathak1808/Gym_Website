@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Poppins:wght@300&family=Roboto:wght@300&display=swap");
+
+.second {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.second2 {
+  display: flex;
+  flex-direction: column;
+  padding: 2%;
+}
+
+.ssP {
+  font-family: inter;
+  font-size: 1.3rem;
+  text-align: justify;
+  margin: 0 5%;
+}
+
+.ssHead {
+  color: #f95b31;
+  font-style: inter;
+  margin: 2% 5%;
+}
+
+.ssImage img {
+  width: 316px;
+  height: 388px;
+  border-radius: 71px 25px 0px 25px;
+  /* margin: 5%; */
+}
+
+@media screen and (max-width: 900px) {
+  .second {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+/* style for classes */
+
+.flex-container .container-1 {
+  display: flex;
+  justify-content: space-evenly;
+}
+.flex-container .container-2 {
+  display: flex;
+  justify-content: first baseline;
+  padding: 6% 3%; 
+  gap: 2%;
+}
+
+.card1 {
+  box-shadow: 0px 4px 4px 0px #00000040;
+  border-radius: 25px 25px;
+  width: 370px;
+  gap: 45px;
+  margin: 1%;
+}
+
+.card1 img {
+  width: 372px;
+  height: 250px;
+  border-radius: 25px 25px 0px 0px;
+}
+
+.a {
+  background-image: url("image2/gym.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 100%;
+  height: 460px;
+
+}
+
+.a p {
+  font-size: 4rem;
+  padding: 10% 2%; 
+  color: white;
+  font-weight: 700;
+}
+
+.flex-container {
+  margin-top: 45px;
+}
+
+.card1 p {
+  color: #df5733;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 700;
+  line-height: normal;
+  margin: 4% 2%;
+}
+
+.cardBtn {
+  margin: 4%;
+}
+
+@media screen and (max-width: 1150px) {
+  .container-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .card1 {
+    margin: 5% 1%;
+  }
+
+  .container-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .a p {
+    padding: 30% 8%;
+    font-size: 3rem;
+  }
+
+  .ssP {
+    font-size: 1rem;
+  }
+}
+

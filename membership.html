@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym: MemberShip</title>
+    <link rel="stylesheet" href="style4.css">
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="style3.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container navigation">
+                <a class="navbar-brand logo" href="index.html">
+                    <img src="Image1/BB LOGO.png" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 navi">
+                        <li class="nav-item navBarItem">
+                            <a class="nav-link" href="classes.html">CLASSES</a>
+                        </li>
+                        <li class="nav-item navBarItem">
+                            <a class="nav-link" href="membership.html">MEMBERSHIP</a>
+                        </li>
+                        <li class="nav-item navBarItem">
+                            <a class="nav-link" href="personalTraining.html">PERSONAL TRAINING</a>
+                        </li>
+                        <li class="nav-item navBarItem">
+                            <a class="nav-link" href="nutrition.html">NUTRITION COUNSELING</a>
+                        </li>
+                        <li class="nav-item navBarItem">
+                            <a class="nav-link" href="testimonial.html">TESTIMONIAL</a>
+                        </li>
+                        <li class="nav-item navBarItem">
+                            <a class="nav-link" href="careers.html">CAREERS</a>
+                        </li>
+                        <li class="nav-item navBarItem">
+                            <a class="nav-link" href="location.html">LOCATION</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <!-- Main Section -->
+
+    <section id="header">
+        <h1 class="container">Membership</h1>
+    </section>
+
+    <div class="offer">
+        <strong>Join us with Attractive Offer</strong>
+    </div>
+
+    <section id="header2">
+        <div class="offer2">
+            <h3>3months</h>
+                <h2>membership</h2>
+                <h1>Only - 5000/-</h1>
+        </div>
+
+        <div class="offer2">
+            <h3>6months</h>
+                <h2>membership</h2>
+                <h1>Only - 8500/-</h1>
+        </div>
+
+        <div class="offer2">
+            <h3>12months</h>
+                <h2>membership</h2>
+                <h1>only - 15000/-</h1>
+        </div>
+
+    </section>
+
+    <div class="registerBtn">
+        <button>REGISTER <br> HERE</button>
+    </div>
+
+    <div class="main-fom">
+        <div class="fom">
+            <div class="star">
+                <img src="imge4/img.png" alt="#">
+            </div>
+            <form class="f1" id="loginForm">
+                <h1>Log In</h1>
+                <label for="un">Username : </label>
+                <input type="text" placeholder="Your Username">
+                <br><br>
+                <label for="mail">Your email :</label>
+                <input type="email" placeholder="Your email">
+                <br><br>
+                <div class="eye-container">
+                    <label for="psw">Password :</label>
+                    <input type="password" placeholder="Password" id="pwd">
+                    <img class="eye-open-close" src="imge4/eye-close.png" id="eyeicon1">
+                </div>
+                <br><br>
+                <span class="chbox">
+                    <input class="form-check-input" type="radio" name="radioNoLabel1" id="radioNoLabel1-1" value="">
+                    <label for="i"> I accept the terms and privacy policy</label>
+                </span>
+                <br><br>
+                <button type="submit" class="btn2">Log In</button>
+                <div class="btn3">
+                    <h5>Create an account?</h5>
+                    <h4 class="unbreakable-underline" onclick="showSignupForm()">Sign Up</h4>
+                </div>
+            </form>
+
+            <!-- SIGN UP -->
+
+            <form class="f1" id="signupForm" style="display: none;">
+                <h1>Create Account</h1>
+                <label for="email">Email :</label>
+                <input type="email" placeholder="Example@gmail.com">
+                <br><br>
+                <div class="eye-container">
+                    <label for="password">Password :</label>
+                    <input type="password" placeholder="Must be 8 characters">
+                    <img class="eyeopenclose" src="imge4/eye-close.png" id="eyeicon2">
+                </div>
+                <br><br>
+                <div class="eye-container">
+                    <label for="confirmPassword">Confirm Password :</label>
+                    <input type="password" placeholder="Repeat password">
+                    <img class="eyeopenclose" src="imge4/eye-close.png" id="eyeicon3">
+                </div>
+                <br><br>
+                <span class="chbox">
+                    <input class="form-check-input" type="radio" id="radioNoLabel2-1" value="">
+                    <label for="i"><strong>Daily exercise reports</strong><br> Get daily activity report via
+                        email.</label>
+                </span>
+                <br><br>
+                <span class="chbox">
+                    <input class="form-check-input" type="radio" id="radioNoLabel2-2" value="">
+                    <label for="i"> Also get weekly activity report via email.</label>
+                </span>
+                <br><br>
+                <button type="submit" class="btn2">Sign Up</button>
+                <div class="btn3">
+                    <h5>Already have an account?</h5>
+                    <h4 class="unbreakable-underline" onclick="showLoginForm()">Log In</h4>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div class="redLine"></div>
+    <footer class="fifthSection">
+
+
+        <div class="address">
+            <img class="logoS" src="image3/BB LOGO.png" alt="">
+            <div>
+                <p>506 Morya Estate,</p>
+                <p>Opposite Infiniti Mall,</p>
+                <p>New Link Road, Andheri West,</p>
+                <p> Mumbai – 400 053 </p>
+            </div>
+
+
+            <div>
+                <p>Phone: +9122 6678 7970</p>
+                <p>Email: <a class="email" href="">info@wavesgym.com</a> </p>
+            </div>
+
+        </div>
+
+        <div class="aboutUs">
+            <div class="heading1">SITEMAP</div>
+            <div class="membership">
+                <a href="">
+                    <p>About Us</p>
+                </a>
+                <a href="">
+                    <p>Membership</p>
+                </a>
+                <a href="">
+                    <p>Classes</p>
+                </a>
+                <a href="">
+                    <p>Offers</p>
+                </a>
+                <a href="">
+                    <p>Carrers at Wave gym</p>
+                </a>
+                <a href="">
+                    <p>Location</p>
+                </a>
+                <a href="">
+                    <p>Terms & Conditions</p>
+                </a>
+                <a href="">
+                    <p>Membership Policy</p>
+                </a>
+            </div>
+        </div>
+
+        <div class="followUs">
+            <div class="heading2">Follow Us</div>
+            <div class="icons">
+                <a href=""><img src="image3/insta.png"></a>
+                <a href=""><img src="image3/twitter.png"></a>
+                <a href=""> <img src="image3/linkedin.png"></a>
+                <a href=""><img src="image3/facebook.png"></a>
+            </div>
+        </div>
+    </footer>
+
+    <div class="cpy">Copyright © 2023.All Rights Reserved.</div>
+
+    <script>
+        function showLoginForm() {
+            document.getElementById("signupForm").style.display = "none";
+            document.getElementById("loginForm").style.display = "block";
+        }
+
+        function showSignupForm() {
+            document.getElementById("loginForm").style.display = "none";
+            document.getElementById("signupForm").style.display = "block";
+        }
+
+        const currentLocation = window.location.href;
+        const menuItem = document.querySelectorAll('.nav-link');
+        const menuLength = menuItem.length;
+        for (let i = 0; i < menuLength; i++) {
+            if (menuItem[i].href === currentLocation) {
+                menuItem[i].classList.add('active');
+            }
+        }
+    </script>
+
+
+</body>
+
+</html>
